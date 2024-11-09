@@ -41,6 +41,12 @@ const Sidebar = () => {
           Thêm sản phẩm
         </p>
       </Link>
+      <Link to="#" style={{color:"black", fontFamily:"Oswald", fontWeight:"300"}}>
+        <p>
+          <AddIcon />
+          Quản lý nhập hàng
+        </p>
+      </Link>
       <Link to="/admin/proposal" style={{color:"black", fontFamily:"Oswald", fontWeight:"300"}}>
         <p>
           <RateReviewIcon />
